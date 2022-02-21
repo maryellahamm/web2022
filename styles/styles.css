@@ -1,13 +1,14 @@
 
 html {
   font-size: 100%;
-  background-color: #ffffff;
+  background-color: rgb(246, 246, 246);
   color: #000000;
 }
 
 body {
+  background-color: rgb(199, 255, 216);
   padding: 0;
-  margin: 0;
+  margin: 1.0;
   font-family: arial, sans-serif;
 }
 
