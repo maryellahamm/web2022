@@ -13,15 +13,18 @@ header {
   padding-bottom: 0px;
   img
 }
+
+/*main background*/
 body {
-  background-color: white;
+  background-color: red;
   padding: 0;
   margin: 0;
   font-family: 'Work-Sans', sans-serif;
 }
 
+/*content background*/
 section {
-  background-color: rgb(230, 255, 237);
+  background-color: white;
   padding: 1.5rem;
 }
 
