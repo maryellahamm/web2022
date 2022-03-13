@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,13 +12,14 @@ li, a {
   font-size: 18px;
   color: #000;
   text-decoration: none;
+  padding: 8px;
 }
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding: 10px 5%;
+  padding: 4px 2.5%;
 }
 
 .logo {
@@ -31,20 +33,32 @@ header {
 }
  .nav__links li {
 display: inline-block;
-padding: 0px 15px;
+padding: 10px 15px;
  }
 
 .nav__links li a:hover {
-  color: rgb(241, 0, 134);
+  background-color: rgb(241, 0, 134);
+  color: #fff;
+  padding: 8px;
 }
 /*end of navigation bar styling*/
 
-/*styling sub page headings*/
+/*styling sub page headings, text*/
 h1 {
   text-align: center;
   font-size: 43px;
   font-weight: normal;
   padding: 16px;
+}
+
+/*styling about page*/
+section {
+  font-size: 16px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+p {
+  position: relative;
 }
 
 /*gallery options page*/
@@ -58,11 +72,23 @@ h1 {
 
 /*fixed footer styling*/
 .footer {
-  position: fixed;
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+  background-color: #fff;
+  color: black;
+  text-align:center;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+
 }
