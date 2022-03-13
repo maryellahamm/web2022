@@ -1,117 +1,38 @@
-html {
+* {
+  box-sizing: border-box;
   font-size: 100%;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
 }
-nav {
-font-family: 'Work Sans', sans-serif;
-text-transform: uppercase;
-}
-
-nav li a:hover {
-  color: white;
+/*adjusting nav bar menu*/
+li, a {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #000;
   text-decoration: none;
 }
 
-header {
-  color: white;
-}
-
-.logo  {
-  position: fixed;
-  margin-top: 30px;
-  margin-left: 20px;
-}
-
-/*adjusts size of al images*/
-section img {
-  display: block;
-  max-width: 100%;
-}
-
-h1, h2, h3 {
-  line-height: 4.0rem;
-
-}
-
-section Intro{
-  background-color: black;
-}
-/*main background*/
-body {
-  background-color: white;
-  padding: 0px;
-  margin: 0px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.4;
-}
-
-.nav {
+header{
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-  background: white;
-  overflow: auto;
+  align-items: center;
+  padding: 30px 10%;
 }
 
-.nav__list {
-  display: block;
-float: right;
-  margin: .2em;
+.logo {
+  cursor:pointer;
 }
 
-ul {
-  padding: 0;
-  list-style-type: none;
-
+.nav__item {
+  list-style: none;
 }
+ .nav__item li {
+display: inline-block;
+padding: 0px 20px;
+ }
 
-nav a {
-  width: 90px;
-  padding: 20px 15px;
-  text-decoration: none;
-  font-family: sans-serif;
-  color: black;
-}
-
-nav a:hover{
-  background: gray;
-}
-/*intro*/
-@media (min-width: 600px){
-.intro {
-  display: grid;
-  width: min-content;
-  grid-template-columns: 100px 1fr;
-}
-}
-
-.section__title--intro{
-  display: block;
-  background-color: black;
-}
-/*content background*/
-section {
-  background-color: white;
-  padding: 5rem 1.5rem;
-}
-
-footer{
-  background-color: transparent;
-  color: rgb(22, 29, 111);;
-  padding: 2em 0 0 0em;
-  columns: 2;
-
-}
-
-
-footer ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0 0 0.5% 0;
-  text-transform: uppercase;
-}
-
-.footer-img{
-
+.nav__item li a:hover{
+  color: rgb(241, 0, 134);
 }
