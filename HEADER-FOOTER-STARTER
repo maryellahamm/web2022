@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>About</title>
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
   </head>
@@ -20,20 +20,6 @@
     </nav>
   </header>
 
-  <section class="Gallery" id="Gallery">
-    <h1>Gallery</h1>
-    <div class="gallery">
-      <div class="gallery">
-        <h3>Graphics</h3>
-      </div>
-      <div class="gallery">
-        <h3>Webpages</h3>
-      </div>
-      <div class="gallery">
-        <h3>Photography</h3>
-      </div>
-    </div>
-</section>
 <footer>
   <img src="m-e-logo (1).png" alt="Ella Hamm Portfolio Logo" title="small logo" height="70">
 

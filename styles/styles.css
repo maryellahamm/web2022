@@ -1,38 +1,68 @@
 * {
   box-sizing: border-box;
-  font-size: 100%;
   margin: 0;
   padding: 0;
   background-color: #fff;
-}
-/*adjusting nav bar menu*/
-li, a {
   font-family: "Poppins", sans-serif;
+}
+/*adjusting nav bar menu using flex box*/
+li, a {
   font-weight: normal;
   font-size: 18px;
   color: #000;
   text-decoration: none;
 }
 
-header{
+header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 10px 5%;
 }
 
 .logo {
   cursor:pointer;
+  margin-right: auto;
 }
 
-.nav__item {
+.nav__links {
   list-style: none;
+  text-transform: lowercase;
 }
- .nav__item li {
+ .nav__links li {
 display: inline-block;
-padding: 0px 20px;
+padding: 0px 15px;
  }
 
-.nav__item li a:hover{
+.nav__links li a:hover {
   color: rgb(241, 0, 134);
+}
+/*end of navigation bar styling*/
+
+/*styling sub page headings*/
+h1 {
+  text-align: center;
+  font-size: 43px;
+  font-weight: normal;
+  padding: 16px;
+}
+
+/*gallery options page*/
+
+
+
+
+
+
+
+
+/*fixed footer styling*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
