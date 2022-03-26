@@ -14,26 +14,6 @@ li, a {
   text-decoration: none;
   padding: 8px;
 }
-/*TRYING TO ANIMATE TEXT IN HEADER*/
-.text-box{
-font-size: 100px;
-font-family: sans-serif;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-}
-
-span {
-  display: inline-block;
-  font-weight: bolder;
-  animation: mover 6w linear infinite;
-}
-/*
-@keyframes mover {
-
-}
-*/
 
 header {
   display: flex;
@@ -68,7 +48,7 @@ h1 {
   text-align: center;
   font-size: 43px;
   font-weight: normal;
-  padding: 16px;
+  padding: 22px;
 }
 
 /*styling about page*/
