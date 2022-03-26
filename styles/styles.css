@@ -14,6 +14,26 @@ li, a {
   text-decoration: none;
   padding: 8px;
 }
+/*TRYING TO ANIMATE TEXT IN HEADER*/
+.text-box{
+font-size: 100px;
+font-family: sans-serif;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+span {
+  display: inline-block;
+  font-weight: bolder;
+  animation: mover 6w linear infinite;
+}
+/*
+@keyframes mover {
+
+}
+*/
 
 header {
   display: flex;
@@ -71,7 +91,7 @@ p {
 
 
 /*fixed footer styling*/
-.footer {
+footer {
   position: sticky;
   left: 0;
   bottom: 0;
