@@ -19,7 +19,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4px 2.5%;
+  padding: 18px 2.5%;
+  font-size: 44px;
 }
 
 .logo {
@@ -72,7 +73,7 @@ p {
 
 /*fixed footer styling*/
 footer {
-  position: sticky;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
