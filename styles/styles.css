@@ -57,7 +57,7 @@ h1 {
 }
 
 h4 {
-  text-align: left;
+  text-align: center;
   font-size: 22px;
   font-weight: normal;
   padding: 6px;
@@ -150,7 +150,7 @@ ul {
 }
 .column .icons {
   display: flex;
-  float: center;
+  align: center;
 }
 .footer {
   background-color: white;
@@ -160,7 +160,6 @@ ul {
  height: 2.5rem;
   width: 100%;
   color: black;
-  text-align:center;
 }
 
 .content {
