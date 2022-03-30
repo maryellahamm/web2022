@@ -64,6 +64,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   width: 36em;
+  height: 100%;
 }
 
   p {
@@ -76,6 +77,13 @@ div.gallery-web-pages {
   margin: 5px;
   float: left;
   width: 180px;
+}
+
+.gallery {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top, padding-bottom: 60px;
+
 }
 
 div.gallery-web-pages:hover {
@@ -114,9 +122,16 @@ ul {
   color: black;
   text-align:center;
   padding: 10px 0;
-
 }
-
+.content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer,
+.push {
+  height: 100px;
+}
 .column {
   float: left;
   width: 25%;
