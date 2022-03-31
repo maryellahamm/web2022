@@ -176,7 +176,10 @@ ul {
   align-items: center;
   width: 25%;
 }
-
+.column .icons {
+  align-items: baseline;
+float: center;
+}
 
 
 
