@@ -9,51 +9,6 @@
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-    <!--styling contact form-->
-<style>
-
-form {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-    .basic-form label {
-      background-color: white;
-      color: black;
-      align: center;
-      margin-left: 15px;
-      font-size: 18px;
-    }
-    .basic-form input {
-      display: inline;
-      font-size: 100%;
-      width: 720px;
-      align: center:
-      margin-left: auto;
-      padding: 10px ;
-      background-color: white;
-      color: black;
-      margin-left: 20px;
-    }
-    .basic-form textarea {
-      display: flex;
-      font-size: 100%;
-      width: 720px;
-      align: center;
-      margin-left: 20px;
-
-    }
-
-
-    .basic-form button {
-      background-color: black;
-      color: white;
-      font-size: 22px;
-      padding: 10px;
-      margin-left: 20px;
-      margin-top: 8px;
-    }
-</style>
 
   </head>
 <header>
@@ -78,61 +33,71 @@ form {
     </nav>
   </header>
 
+  <style>
+
+form {
+  width: 100%;
+  height: auto;
+}
+form .row {
+  line-height: 1.5;
+  padding-left: 50%;
+
+}
+
+  </style>
+
 <!--page content- use a contact form, nothing fancy just a contact form for employers to send resruiting messges dirrectly to my inbox-->
-    <h1>Let's Chat</h1>
-<div
+<h1>Let's Chat</h1>
 
-  <div id="form">
-    <form action="scripts/contact-form-process.php" method="post" class="basic-form">
-      <div class="row">
-        <div class="col-25">
-          <label for="name">Name: </label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="name" name="fullname" class=InputBox>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-25">
-          <label for="telephone">Telephone Number: </label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="telephone" name="telephone"
-          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" class="InputBox">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-25">
-          <label for="email">E-mail Address</label>
-        </div>
-        <div class="col-75">
-          <input type="text" id="email" name="email"
-          class="InputBox">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-25">
-          <label for="message">Message: </label>
-        </div>
-        <div class="col-75">
-          <textarea id="message" name="message" rows="10" cols="50"
-         class="InputBox"></textarea>
-        </div>
-      </div>
-
-      <div class="row">
-          <button class="button-1" role="button">Submit</button>
-
-      </div>
-
-    </form>
+<div id="form">
+<form action="scripts/contact-form-process.php" method="post" class="basic-form">
+  <div class="row">
+    <div class="col-25">
+      <label for="name">Name: </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="name" name="fullname" class=InputBox>
+    </div>
   </div>
 
+  <div class="row">
+    <div class="col-25">
+      <label for="telephone">Telephone Number: </label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="telephone" name="telephone"
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" class="InputBox">
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="col-25">
+      <label for="email">E-mail Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email"
+      class="InputBox">
+    </div>
+  </div>
 
+  <div class="row">
+    <div class="col-25">
+      <label for="message">Message: </label>
+    </div>
+    <div class="col-75">
+      <textarea id="message" name="message" rows="10" cols="50"
+     class="InputBox"></textarea>
+    </div>
+  </div>
+
+  <div class="row">
+      <button class="button-1" role="button">Submit</button>
+
+  </div>
+
+</form>
+</div>
 </body>
 
 <!--footer-->

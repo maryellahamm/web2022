@@ -66,11 +66,8 @@ if (isset($_POST['Email'])) {
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
 
-
-    <!-- INCLUDE YOUR SUCCESS MESSAGE BELOW -->
-
+}
     "Thanks for getting in touch. We will get back to you soon."
 
 
-}
 ?>
