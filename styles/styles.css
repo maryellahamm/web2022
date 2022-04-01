@@ -84,7 +84,7 @@ section {
 
 /*gallery options page*/
 .portfolio-list-items {
-  text-decoration-style: none;
+
   margin-left: 200px;
   margin-right: auto;
   width: 60em;
@@ -148,7 +148,7 @@ ul {
 }
 .column .icons {
   display: flex;
-  align: center;
+  justify-content: center;
 }
 
 .footer {
