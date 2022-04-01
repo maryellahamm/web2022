@@ -177,8 +177,8 @@ ul {
   width: 25%;
 }
 .column .icons {
-  align-items: baseline;
-float: center;
+  display: flex;
+  justify-content: center;
 }
 
 
