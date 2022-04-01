@@ -152,6 +152,9 @@ ul {
   display: flex;
   align: center;
 }
+footer {
+  position: fixed;
+}
 .footer {
   background-color: white;
   position: bottom;
