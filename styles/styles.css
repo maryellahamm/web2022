@@ -9,6 +9,7 @@ body {
   margin: 18px;
   padding: 0;
   text-align: center;
+  padding-bottom: 20px;
 }
 /*adjusting nav bar menu / footer nav menu using flex box*/
 li, a {
@@ -70,7 +71,7 @@ section {
   width: 65em;
   height: 100%;
   text-align: center;
-  padding: 4em;
+  padding: 0em;
 }
 /*styling about me profile photo page*/
 section img {
@@ -152,12 +153,10 @@ ul {
   display: flex;
   align: center;
 }
-footer {
-  position: fixed;
-}
+
 .footer {
   background-color: white;
-  position: bottom;
+  position: fixed;
  bottom: 0;
  width: 100%;
  height: 2.5rem;
