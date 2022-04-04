@@ -7,6 +7,35 @@
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+
+.basic-form {
+  background-color: white;
+  width: 100vw;
+  height: 60vh
+}
+.basic-form label {
+  font-size: 100%;
+}
+.basic-form input {
+  font-size: 100%;
+  width: 350px;
+  border-weight: 3px;
+}
+
+.basic-form button {
+  padding: 8px;
+  font-family: Poppins;
+  background-color:  rgb(241, 0, 134);
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  width: 150px;
+  margin: 16px;
+}
+
+
+    </style>
     <body>
   </head>
 <header>
@@ -31,71 +60,31 @@
     </nav>
   </header>
 
-  <style>
-
-form {
-  width: 100%;
-  height: auto;
-}
-form .row {
-  line-height: 1.5;
-  padding-left: 50%;
-
-}
-
-  </style>
 
 <!--page content- use a contact form, nothing fancy just a contact form for employers to send resruiting messges dirrectly to my inbox-->
 <h1>Let's Chat</h1>
 
-<div id="form">
 <form action="scripts/contact-form-process.php" method="post" class="basic-form">
-  <div class="row">
-    <div class="col-25">
       <label for="name">Name: </label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="name" name="fullname" class=InputBox>
-    </div>
-  </div>
+      <input type="text" id="name" name="name">
+    <br><br>
 
-  <div class="row">
-    <div class="col-25">
       <label for="telephone">Telephone Number: </label>
-    </div>
-    <div class="col-75">
       <input type="text" id="telephone" name="telephone"
-      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12" class="InputBox">
-    </div>
-  </div>
+      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="12">
+    <br><br>
 
-  <div class="row">
-    <div class="col-25">
       <label for="email">E-mail Address</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="email" name="email"
-      class="InputBox">
-    </div>
-  </div>
+      <input type="text" id="email" name="email">
+    <br><br>
 
-  <div class="row">
-    <div class="col-25">
       <label for="message">Message: </label>
-    </div>
-    <div class="col-75">
-      <textarea id="message" name="message" rows="10" cols="50"
-     class="InputBox"></textarea>
-    </div>
-  </div>
+      <textarea id="message" name="message" rows="3" cols="20"></textarea>
+    <br><br>
 
-  <div class="row">
       <button class="button-1" role="button">Submit</button>
 
-  </div>
-
 </form>
-</div>
 
 <!--footer-->
 <footer>
