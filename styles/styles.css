@@ -10,6 +10,7 @@ body {
   padding: 0;
   text-align: center;
   padding-bottom: 20px;
+  width: 100%;
 }
 /*adjusting nav bar menu / footer nav menu using flex box*/
 li, a {
@@ -95,7 +96,13 @@ p {
   font-size: 18px;
   padding: 1em;
 }
-
+form {
+  background-color: yellow;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  float: center;
+}
 
 /*portfolio  gallery styling*/
 .gallery {
@@ -142,9 +149,11 @@ column-gap: 20px;
 ul {
   list-style: none;
 }
-.row {
+footer .row {
   display: flex;
   flex-wrap: wrap;
+  position: bottom;
+
 }
 .column .icons {
   display: flex;
