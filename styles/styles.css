@@ -151,8 +151,6 @@ ul {
 footer .row {
   display: flex;
   flex-wrap: wrap;
-  position: bottom;
-
 }
 .column .icons {
   display: flex;
