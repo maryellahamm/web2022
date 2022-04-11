@@ -5,6 +5,7 @@
   background-color: white;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   margin: 18px;
   padding: 0;
@@ -22,7 +23,7 @@ li, a {
 }
 
 header {
-  display: flex;
+  display: inline;
   justify-content: space-between;
   align-items: center;
   padding: 18px 2.5%;
@@ -129,19 +130,19 @@ column-gap: 20px;
 }
 
 /*adjusting gallery responsively widths/height*/
-@media (max-width: 1199px) {
+@media (max-width: desktop) {
   .gallery {
     column-count: 3;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: tablet) {
   .gallery {
     column-count: 2;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: mobile) {
   .gallery {
     column-count: 1;
   }
