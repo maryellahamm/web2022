@@ -50,6 +50,18 @@ padding: 10px 15px;
 }
 
 /*end of navigation bar styling*/
+/*responsiveness styling*/
+
+$mobile: 576px;
+$laptop: 992px;
+$tablet: 776px;
+$desktop: 1200px;
+
+@media (min-width: $mobile) {
+  .container {
+    max-width: 450px;
+  }
+}
 
 /*styling sub page headings, text*/
 h1 {
@@ -136,6 +148,7 @@ column-gap: 20px;
 }
 
 /*fixed footer/header styling*/
+
 .container {
   width: 100%;
   min-height: 2em;
