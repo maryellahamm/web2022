@@ -58,27 +58,24 @@ h4 {
 	font-weight: normal;
 	padding: 6px;
 }
-/*styling section per page*/
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+/*styles about me text */
 section {
+	padding-left: 8%;
+	padding-right: 8%;
+	background-color: yellow;
+}
+/*styling section per page*/
+gallery-section {
 	margin-left: auto;
 	margin-right: auto;
 	width: 60em;
 	height: 100%;
-	text-align: center;
 }
-/*styling about me page*/
-.gallery-section {
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #FFFFFF;
-	padding: 8em;
-}
-/*gallery options page*/
-.portfolio-list-items {
-	margin-left: 1100px;
-	margin-right: auto;
-	width: 60em;
-}
+
 p {
 	position: relative;
 	font-size: 18px;
@@ -119,8 +116,8 @@ footer .container .row .column {
 	align-items: center;
 	justify-content: center;
 }
-.content {
-	padding: 0px;
+ .content {
+	padding: 60px;
 	min-height: 100%;
 	margin: 0 auto -50px;
 }
