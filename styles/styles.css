@@ -1,8 +1,9 @@
 
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	background-color: #FFFFFF;
+	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
 body {
@@ -12,6 +13,28 @@ body {
 	padding-bottom: 20px;
 	width: 100%;
 }
+/*logo adjusting*/
+/* hide mobile version by default */
+.logo .mobile {
+	display: none;
+}
+.logo .desktop {
+	max-width: 220px;
+}
+/* when screen is less than 600px wide
+	 show mobile version and hide desktop */
+@media (max-width: 600px) {
+	.logo .mobile {
+		display: inline;
+		justify-content: space-between;
+		max-height: 150px;
+		max-width: 80px
+
+	}
+	.logo .desktop {
+		display: none;
+	}
+}
 /*adjusting nav bar menu / footer nav menu using flex box*/
 li, a {
 	font-weight: normal;
@@ -20,7 +43,7 @@ li, a {
 	text-decoration: none;
 	padding: 6px;
 }
-header {
+.header {
 	display: inline;
 	justify-content: space-between;
 	align-items: center;
@@ -64,10 +87,10 @@ h1 {
 }
 /*styles about me text */
 section {
-	padding-left: 8%;
-	padding-right: 8%;
+padding: 80px;
 	background-color: yellow;
 }
+
 /*styling section per page*/
 gallery-section {
 	margin-left: auto;
@@ -82,54 +105,16 @@ p {
 	padding: 1em;
 }
 /*fixed footer/header styling*/
-.container {
-	width: 100%;
-	min-height: 2em;
-	padding-left: 8%;
-	padding-right: 8%;
-	box-sizing: border-box;
-	overflow: hidden;
-}
-/*footer styling*/
-footer .row {
-	display: flex;
-	flex-wrap: wrap;
-}
-.column .icons {
-	display: flex;
-	justify-content: center;
-}
-.text-box {
-	overflow: hidden;
+.footer-container {
+	padding: 1em 0 1em 0;
+	background-color: yellow;
 }
 .footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-}
-footer .container .row {
-	padding: 20px;
-}
-footer .container .row .column {
-	display: grid;
-	grid-auto-flow: column;
-	align-items: center;
-	justify-content: center;
-}
- .content {
-	padding: 60px;
-	min-height: 100%;
-	margin: 0 auto -50px;
-}
-.footer,.push {
-	margin-top: 16px;
-	height: 80px;
-}
-.column {
-	align-items: center;
-	width: 25%;
-}
-.column .icons {
+	width: 90%;
+	height: 40vh;
+	color: black;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0 auto;
 }
