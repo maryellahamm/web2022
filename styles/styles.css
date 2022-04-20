@@ -51,13 +51,7 @@ $laptop: 992px;
 $tablet: 776px;
 $desktop: 1200px;
 /*styling sub page headings, text*/
-h1 {
-	text-align: center;
-	font-size: 40px;
-	font-weight: normal;
-	padding: 22px;
-	padding-bottom: 1em;
-}
+
 h4 {
 	text-align: center;
 	font-size: 22px;
