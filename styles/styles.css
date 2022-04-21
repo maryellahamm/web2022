@@ -116,7 +116,5 @@ p {
 	height: 40vh;
 	color: black;
 	display: grid;
-	grid-auto-columns: auto;
-	justify-content: center;
-	flex-wrap: wrap;
+	grid-template-columns: 25% 25% 25% 25%;
 }
