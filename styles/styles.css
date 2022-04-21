@@ -79,15 +79,16 @@ h4 {
 	text-align: center;
 	font-size: 22px;
 	font-weight: normal;
-	padding: 6px;
+	padding: 6px;	
 }
 h1 {
 	text-align: center;
-	padding-bottom: 20px;
+	padding: 25px;
 }
 /*styles about me text */
 section {
-padding: 80px;
+padding-left: 80px;
+padding-right: 80px;
 	background-color: white;
 }
 .main-container {
