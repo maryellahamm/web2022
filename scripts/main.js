@@ -14,6 +14,7 @@ if (new Date().getHours() > 18) {
   const nav__links = document.getElementsByClassName('nav__links');
 nav__links[0].style.backgroundColor = 'black';
 }
+
 if (new Date().getHours() > 18) {
   const about = document.getElementsBy('about');
   about.style.backgroundColor = 'black';
