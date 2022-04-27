@@ -81,6 +81,7 @@ h4 {
 	font-weight: normal;
 	padding: 6px;
 }
+
 h1 {
 	text-align: center;
 	padding: 25px;
@@ -89,9 +90,8 @@ h1 {
 section {
 padding-left: 80px;
 padding-right: 80px;
-	background-color: white;
+background-color: white;
 }
-
 /*styling section per page*/
 gallery-section {
 	margin-left: auto;
@@ -104,7 +104,13 @@ gallery-section {
 	color: #fff;
 	padding: 6px;
 }
+.gallery p {
+	font-size: 16px;
+	padding-bottom: 4em;
+	padding-left: 80px;
+	padding-right: 80px;
 
+}
 p {
 	text-align: center;
 	font-size: 18px;
