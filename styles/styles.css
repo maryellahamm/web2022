@@ -126,3 +126,9 @@ p {
 	display: grid;
 	grid-template-columns: 33% 33% 33%;
 }
+.footer-column-2 li a:hover {
+		background-color: rgb(241, 0, 134);
+		color: #fff;
+		padding: 6px;
+	}
+}
