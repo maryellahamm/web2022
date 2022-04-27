@@ -104,6 +104,11 @@ gallery-section {
 	width: 60em;
 	height: 100%;
 }
+.gallery-section ul a:hover {
+	background-color: rgb(241, 0, 134);
+	color: #fff;
+	padding: 6px;
+}
 
 p {
 	position: relative;
