@@ -91,11 +91,6 @@ padding-left: 80px;
 padding-right: 80px;
 	background-color: white;
 }
-.main-container {
-	max-width: 400px;
-	display: grid;
-	justify-content: center;
-}
 
 /*styling section per page*/
 gallery-section {
@@ -111,10 +106,10 @@ gallery-section {
 }
 
 p {
-	position: relative;
+	text-align: center;
 	font-size: 18px;
-	padding: 1em;
 }
+
 /*fixed footer/header styling*/
 .footer {
 	position: absolute;
